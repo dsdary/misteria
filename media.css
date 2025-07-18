@@ -1,0 +1,287 @@
+@media all and (max-width: 1095px) {
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  #form.wrapper {
+    flex-wrap: wrap;
+  }
+}
+
+@media all and (max-width: 968px) {
+  .container {
+    gap: 10px;
+  }
+
+  .header-bottom .wrapper:first-child {
+    width: 100%;
+  }
+
+  .header-bottom .container {
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    gap: 10px;
+  }
+.main-wrapper {
+flex-wrap: wrap;
+}
+  .header-bottom{
+    padding-bottom: 0px;
+  }
+  header nav ul {
+    margin-right: 0px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+  }
+
+  header .show + a,
+  header nav ul,
+  header .wrapper:last-child {
+    display: none;
+  }
+
+  header .show {
+    display: block;
+    color: #2c2775;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  header .show:hover {
+    color: #a8a1ff;
+  }
+
+  header .icon {
+    display: block;
+    color: #2c2775;
+    position: absolute;
+    top: -10px;
+   
+    right: 40px;
+    cursor: pointer;
+    font-size: 105px;
+  }
+ header .icon span, .question-toggle {
+   font-size: 30px;
+ }
+
+  header nav ul ul {
+    top: 45px;
+    float: none;
+    position: static;
+    display: none;
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+    border: 0;
+     
+  }
+  header nav ul.dropdown li {
+text-decoration:underline;
+  }
+
+  [id^="btn"]:checked + ul {
+    display: flex;
+   
+  }
+[id^="btn"]:checked + ul li{
+
+ margin: 12px 0px;
+}
+  header span.cancel:before {
+    content: "\f00d";
+  }
+
+header nav ul li a::before{
+  height: 10%;
+}
+.hero{
+  padding: 120px 30px 240px ;
+  background-size: cover;
+}
+
+  .advantages {
+    height: 250px;
+  }
+  .advntg {
+    width: 100px;
+    height: 100px;
+  }
+  .birthday {
+    height: 630px;
+  }
+  p, .btn, li{
+    font-size: 14px;
+  }
+  .btn{
+    width: 150px;
+  }
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+  h3, h4 {
+    font-size: 22px;
+  }
+
+  .catalog .catalog-item {
+    min-width: 230px;
+    width: 20%;
+    height: 350px;
+  }
+  .catalog {
+    min-width: 100%;
+    max-height: 500px;
+  }
+
+  .aquagrim-wrapper {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .aquagrim-wrapper .description {
+    text-align: center;
+  }
+  .aquagrim-wrapper:last-child {
+    margin-top: -20px;
+  }
+  .aquagrim .vert-wrapper .bg {
+    align-items: flex-start;
+    max-width: none;
+    font-size: 16px;
+  }
+
+  .aquagrim .vert-wrapper {
+    align-items: center;
+    width: 100%;
+  }
+  .aquagrim .img-container:first-child {
+    align-self: start;
+    height: 250px;
+  }
+
+  .aquagrim .img-container:last-child {
+    align-self: end;
+  }
+  .contact-us .wrapper {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .map .info {
+    transform: none;
+    width: 100%;
+    margin-left: 0px;
+    height: fit-content;
+    padding: 30px;
+    min-width: 0px;
+  }
+  .map {
+    height: fit-content;
+  }
+
+    .certificate > .wrapper:first-of-type{
+flex-direction: column;
+align-items: center;
+}
+.certificate .bg{
+  width: 100%;
+}
+}
+
+@media all and (max-width: 790px) {
+  .wrapper {
+    gap: 18px;
+  }
+
+  .menu ul li a {
+    font-size: 16px;
+    min-width: 100px;
+  }
+#content, #aquagrim_content{
+  width: 90vw;
+}
+}
+
+@media all and (max-width: 640px) {
+ header span{
+  font-size: 12PX;
+}
+.box{
+ width: 100%;
+}
+.certificate img:last-child{
+  width: 100%;
+}
+  .advantages {
+    flex-direction: column;
+  
+   max-width: 340px;
+    margin-top: 50px;
+  }
+  .birthday {
+    height: 1200px;
+     background: url(images/rainbow_mobile.png),
+    radial-gradient(circle, rgba(210, 207, 255, 1) 0%, rgb(155, 138, 255) 100%);
+    background-size: 400px, contain;
+  background-position: right ;
+  background-repeat: no-repeat;
+  }
+#small-cloud1, #small-cloud3{
+  background-size: cover;
+  padding: 120px 0px 20px 60px;
+}
+.more img{
+  display: none;
+}
+.more .wrapper{
+  gap:30px;
+}
+.aquagrim ul li{
+  font-size: 14px;
+}
+.aquagrim .img-container{
+  width: 100%;
+  height: fit-content;
+  padding-top: 0px;
+}
+  .cloud{
+    background-size: 1600px;
+    margin-top: -250px;
+  }
+  .catalog .catalog-item{
+   min-width: 140px;
+   height: 280px;
+   margin: 5PX;
+  }
+
+.about-wrapper{
+  flex-wrap: wrap;
+}
+
+
+#small-cloud1, #small-cloud3{
+  min-width: 100vw;
+}
+#moon{
+  top:15%;
+}
+#star{
+  top:70%;
+  left: 10%;
+}
+}
+
+@media all and (max-width: 520px) {
+  .container{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+   
+  }
+
